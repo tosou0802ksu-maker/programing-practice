@@ -1,0 +1,14 @@
+import sys
+
+dic = {}
+with open(sys.argv[1],"r") as f:
+    for a in f:
+        line = a.strip()           # 改行文字を取り除く（strip）．
+        words = line.split()       # スペースで分割する．
+    for word in words:             # 各単語を順番に調べる．
+            if word in dic:        # 単語が辞書にあれば，
+                dic[word] += 1     # カウントを1増やす．
+            else:                  # なければ，
+                dic[word]= 1       # 1を代入する．
+
+print(dic)
