@@ -1,0 +1,11 @@
+テキストファイルは複数の行で構成されている。行の末尾には改行（内部データでは改行文字）があるはずだから、テキストファイルの最後の行にも改行があるべきだ。
+Unixの標準的なインタフェイス規格であるPOSIXでの語の定義を参照すると「テキストファイル」と「行」都については以下のような記述がされている。以下に抜粋する。
+
+3.403 Text File
+A file that contains characters organized into one or more lines.
+（テキストファイルとは、一つまたはそれ以上の行で編成された文字を含むファイルである）
+3.206 Line
+A sequence of zero or more non-<newline>characters plus a terminating <newline> character.
+（行とは、ゼロまたはそれ以上の非改行文字の並びに、終端となる改行文字を足したものである）
+
+だからプログラムコードを含め、最後の行の後には改行を忘れないように注意が必要である。

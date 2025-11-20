@@ -1,0 +1,9 @@
+f = open("Sample2.py", "r")    <<< 対象ファイルを p.289 の Sample2.py とする
+n = 0
+while True:
+    line = f.readline()
+    if line == "":           <<< 結果が空文字列なのは「もう読める行がない」ことを意味する
+        break
+    n += 1
+    print("{:3d}: {}".format(n, line), end="")  <<< フォーマット指定は p.261 を参照
+f.close()

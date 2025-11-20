@@ -1,0 +1,15 @@
+Wed Apr 23 10:46:20 JST 2025
+/Users/soshi
+total 16
+-rw-r--r--@  1 soshi  staff   388 Mar 31 21:04 00000.rtf
+drwx------@  5 soshi  staff   160 Apr 10 16:09 Applications
+drwxr-xr-x   3 soshi  staff    96 Apr 23 10:46 backups
+drwx------+  4 soshi  staff   128 Apr 15 11:16 Desktop
+drwx------+  9 soshi  staff   288 Apr 17 09:10 Documents
+drwx------+ 40 soshi  staff  1280 Apr 22 13:20 Downloads
+-rw-r--r--@  1 soshi  staff   145 Apr 23 10:44 filelist.txt
+drwx------@ 91 soshi  staff  2912 Apr 17 09:43 Library
+drwx------   4 soshi  staff   128 Mar 31 20:46 Movies
+drwx------+  4 soshi  staff   128 Mar 31 21:08 Music
+drwx------+  5 soshi  staff   160 Mar 31 21:20 Pictures
+drwxr-xr-x+  4 soshi  staff   128 Mar 28 17:11 Public
