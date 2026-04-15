@@ -1,0 +1,13 @@
+学生証番号：2554709 氏名：黒田蒼史
+
+soshi@soshinoMacBook-Air 01 % time ./loop                       
+C: start
+num = -21066
+./loop  0.57s user 0.00s system 99% cpu 0.582 total
+soshi@soshinoMacBook-Air 01 % time python3 ./loop.py
+Python: start
+num = 4382
+python3 ./loop.py  38.49s user 0.09s system 98% cpu 39.240 total
+
+＜考察＞
+　結果からC言語はPythonに比べて処理速度が速く、PythonはC言語に比べてコードが書きやすく、読みやすいことがわかった。
